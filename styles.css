@@ -1,0 +1,93 @@
+*,*:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(10, 10, 16, 1.0);
+	background-image: linear-gradient(to left,
+	  rgba(0, , 0, .7) 1%,
+      rgba(0, 0, 0, .8) 25%,
+      rgba(, 0, 0, .9) 50%);
+font-family: 'Courier New', monospace;
+margin:0px;
+color:white;
+}
+
+
+main {
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+}
+header{
+
+}
+
+nav {
+	display:flex;
+
+	width:360px;
+	
+}
+
+ul {
+	list-style-type:none;
+	border:1px solid white;
+	background-color:rgba(150,20,20,0.7);
+	float:left;
+	  width:360px;
+	  height:120px;
+	  padding:0px;
+	  margin:0px;
+	display:flex;
+	justify-content:center;
+		  
+}
+
+li {
+	height:90%;
+	width:80px;
+	float:left;
+		  padding:0px;
+	  margin:5px;
+	  border:2px solid black;
+	  border-radius:30% / 70%;
+	  box-shadow:3px 3px black;
+	  text-shadow:3px 3px green;
+	  	background-color:rgba(250,250,250,0.7);
+}
+
+li:hover {
+	width:90px;
+	background-color:rgba(250,250,250,0.9);
+	
+}
+
+footer {
+	position:absolute;
+	bottom:0;
+	
+}
+
+#greeting{
+	font-size:1.5em;
+	padding:2px;
+	text-align:center;
+	text-shadow:2px 2px purple;
+
+}
+
+#homeBalance {
+		font-size:1em;
+	padding:2px;
+	text-align:center;
+	text-shadow:2px 2px purple;
+	  background-color: rgba(80,80,80,0.8);
+	  border:2px solid white;
+	  border-radius:50%;
+	  width:50%;
+	
+}
+
+
+
