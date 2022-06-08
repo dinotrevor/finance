@@ -27,6 +27,18 @@ align-items:center;
 	margin:0px;
 	height:auto;
 }
+#incomePage{
+	background-color:black;
+        height: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        padding: 5px;
+	text-align:center;
+	width:75%;
+
+
+}
 #balance{
 	color:white;
 	font-size:30px;
@@ -187,4 +199,52 @@ background-color:black;
 	border:2px dotted white;
 	border-radius:150px;
 	box-shadow:12px 122px 122px white;
+}
+#incomeTable{
+	width:100%;
+	border:2px solid white;
+	padding:0px;
+		table-layout: auto;
+	
+	
+	
+}
+td{
+	border:2px solid white;
+	padding:5px;
+	height:50px;
+
+
+	
+	
+}
+th{
+	font-size:15px;
+
+	width:100%;
+	
+
+	
+}
+
+#buttonIncome{
+	background-color:black;
+	color:white;
+	font-size:15px;
+	border:1px solid white;
+	border-radius:100px;
+	
+	
+}
+
+#incomeAdd{
+	background-color:maroon;
+	height:300px;
+	width:25%;
+	display:block;
+
+}
+#incomeAdd input{
+	width:100%;
+
 }
