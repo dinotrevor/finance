@@ -17,16 +17,8 @@ height:350px;
 justify-content:center;
 align-items:center;
 }
-#main{
-	background-color:black;
-	
-	display:block;
-	width:50%;
-	text-align:center;
-	margin:0px;
-	height:100%;
 
-}
+
 #home{
 	background-color:black;
 	display:block;
@@ -34,7 +26,6 @@ align-items:center;
 	text-align:center;
 	margin:0px;
 	height:auto;
-
 }
 #balance{
 	color:white;
@@ -48,6 +39,7 @@ align-items:center;
 header{
 	background-color:rgba(190,190,190,1);
 	width:100%;
+	height:200px;
 	display:flex;
 	justify-content:center;
 	align-items:center;	
@@ -90,7 +82,7 @@ li {
 	height:90%;
 	width:80px;
 	float:left;
-		  padding:0px;
+		 padding:0px;
 	  margin:5px;
 	  border:2px solid black;
 	  border-radius:30% / 70%;
@@ -176,31 +168,23 @@ height:40px;
 }
 
 #login{
-	background-color:white;
+
+}
+
+.login input{
+background-color:black;	
+	
+	color:white;
+	height:55px;
 	width:100%;
-	font-size:25px;
-	display:block;
-	margin:0px;
-	position:relative;
-	top:100px;
+	margin-top:20px;
+	padding:5px;
+	font-size:30px;
+	border:2px dotted white;
+	border-radius:150px;
+	box-shadow:12px 122px 122px white;
 }
 
-.login, input{
-background-color:black;	
-	border:2px solid white;
-	color:white;
-	height:45px;
-
-	
-}
-.reg, input{
-background-color:black;	
-	border:2px solid white;
-	color:white;
-	height:45px;
-	
-	
-}
 
 
 
